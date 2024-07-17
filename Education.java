@@ -4,14 +4,13 @@ abstract class EducationBoard {
     private String name;
     private String establishedDate;
     private String resolutionNumber;
-    private String gazetteNotificationDate;
+   
 
-    public EducationBoard(String name, String establishedDate, String resolutionNumber,
-            String gazetteNotificationDate) {
+    public EducationBoard(String name, String establishedDate, String resolutionNumbere) {
         this.name = name;
         this.establishedDate = establishedDate;
         this.resolutionNumber = resolutionNumber;
-        this.gazetteNotificationDate = gazetteNotificationDate;
+        
     }
 
     public String getName() {
